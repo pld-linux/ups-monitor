@@ -1,16 +1,16 @@
-Summary:        A graphical UPS monitor for the GNOME desktop
+Summary:	A graphical UPS monitor for the GNOME desktop
 Summary(pl):	Graficzny monitor UPS-a dla ¶rodowiska GNOME
-Name:           ups-monitor
-Vendor:         Amauta
-Version:        0.1 
-Release:       	0.1 
-License:        GPL
-Group:          System/Monitoring
-Source:         http://freshmeat.net/redir/ups-monitor/51922/url_tgz/%{name}-%{version}.tar.gz
-URL:            http://www.amautacorp.com/
-Requires:       python-pygtk >= 2.0.0
+Name:		ups-monitor
+Vendor:		Amauta
+Version:	0.1 
+Release:	0.1 
+License:	GPL
+Group:		System/Monitoring
+Source:		http://freshmeat.net/redir/ups-monitor/51922/url_tgz/%{name}-%{version}.tar.gz
+URL:		http://www.amautacorp.com/
+Requires:	python-pygtk >= 2.0.0
 Requires:	python-pygtk-glade >= 2.0.0
-BuildArch:      noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -20,8 +20,8 @@ in real-time.  You can check locally attached UPSs or networked UPS.
 UPS monitor requires a working Network UPS Tools (nut) server.
 
 %description -l pl
-UPS monitor jest graficzn± aplikacj± pozwalaj±c± monitorowaæ UPS w czasie
-rzeczywistym. Obs³uguje zarówno lokalny jak i sieciowy UPS.
+UPS monitor jest graficzn± aplikacj± pozwalaj±c± monitorowaæ UPS w
+czasie rzeczywistym. Obs³uguje zarówno lokalny jak i sieciowy UPS.
 
 UPS monitor wymaga serwer Network UPS Tools (nut).
 
