@@ -3,12 +3,12 @@
 Summary:	A graphical UPS monitor for the GNOME desktop
 Summary(pl):	Graficzny monitor UPS-a dla ¶rodowiska GNOME
 Name:		ups-monitor
-Version:	0.1
+Version:	0.5
 Release:	0.1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.amautacorp.com/staff/Rudd-O/ups-monitor/files/%{name}-%{version}.tar.gz
-# Source0-md5:	dadb371842fc82b82d88df18417dd2a9
+# Source0-md5:	368ad1a69c2ce68bb8735c400e982745
 URL:		http://www.amautacorp.com/staff/Rudd-O/ups-monitor/
 Requires:	python-pygtk >= 2.0.0
 Requires:	python-pygtk-glade >= 2.0.0
@@ -47,7 +47,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README TODO
+%doc AUTHORS ChangeLog README NEWS TODO
 %attr(755,root,root) %{_bindir}/ups-monitor
 %{_datadir}/%{name}
 %{_pixmapsdir}/*
