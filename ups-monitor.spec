@@ -7,7 +7,7 @@ Version:	0.1
 Release:	0.1 
 License:	GPL
 Group:		Applications/System
-Source:		http://www.amautacorp.com/staff/Rudd-O/ups-monitor/files/%{name}-%{version}.tar.gz
+Source0:	http://www.amautacorp.com/staff/Rudd-O/ups-monitor/files/%{name}-%{version}.tar.gz
 # Source0-md5:	dadb371842fc82b82d88df18417dd2a9
 URL:		http://www.amautacorp.com/staff/Rudd-O/ups-monitor/
 Requires:	python-pygtk >= 2.0.0
