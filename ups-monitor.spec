@@ -28,7 +28,6 @@ UPS monitor wymaga serwer Network UPS Tools (nut).
 %prep
 %setup -q
 
-
 %install
 rm -rf $RPM_BUILD_ROOT
 
@@ -40,7 +39,7 @@ install -D -m 644 load.png $RPM_BUILD_ROOT%{_datadir}/ups-monitor/load.png
 install -D -m 644 remaining-time.png $RPM_BUILD_ROOT%{_datadir}/ups-monitor/remaining-time.png
 install -D -m 644 ups-monitor.png $RPM_BUILD_ROOT%{_datadir}/ups-monitor/ups-monitor.png
 install -D -m 644 ups-monitor.png $RPM_BUILD_ROOT%{_pixmapsdir}/ups-monitor.png
-install -D -m 644 ups-monitor.desktop  $RPM_BUILD_ROOT%{_desktopdir}/ups-monitor.desktop
+install -D -m 644 ups-monitor.desktop $RPM_BUILD_ROOT%{_desktopdir}/ups-monitor.desktop
 
 %files
 %defattr(644,root,root,755)
