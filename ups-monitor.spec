@@ -42,6 +42,9 @@ install	*.png			$RPM_BUILD_ROOT%{_datadir}/ups-monitor
 install	%{name}.png		$RPM_BUILD_ROOT%{_pixmapsdir}
 #install	%{name}.desktop		$RPM_BUILD_ROOT%{_desktopdir}/%{name}.desktop
 
+%clean
+rm -rf $RPM_BUILD_ROOT
+
 %files
 %defattr(644,root,root,755)
 %doc README TODO
