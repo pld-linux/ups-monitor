@@ -3,8 +3,8 @@
 Summary:	A graphical UPS monitor for the GNOME desktop
 Summary(pl):	Graficzny monitor UPS-a dla ¶rodowiska GNOME
 Name:		ups-monitor
-Version:	0.1 
-Release:	0.1 
+Version:	0.1
+Release:	0.1
 License:	GPL
 Group:		Applications/System
 Source0:	http://www.amautacorp.com/staff/Rudd-O/ups-monitor/files/%{name}-%{version}.tar.gz
@@ -18,7 +18,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 UPS monitor is a graphical application that lets you monitor your UPS
-in real-time.  You can check locally attached UPSs or networked UPS.
+in real-time. You can check locally attached UPSs or networked UPS.
 
 UPS monitor requires a working Network UPS Tools (nut) server.
 
