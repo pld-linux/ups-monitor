@@ -1,0 +1,23 @@
+--- ups-monitor-0.6/ups-monitor.desktop.orig	2004-07-23 07:08:03.000000000 +0200
++++ ups-monitor-0.6/ups-monitor.desktop	2004-12-11 10:28:23.945632320 +0100
+@@ -1,13 +1,16 @@
+ [Desktop Entry]
+ Encoding=UTF-8
+ Name=UPS monitor
+-Comment=View UPS battery level and power source
+-GenericName=UPS monitor
+ Name[es]=Monitor de SAI
+-Comment[es]=Ver el nivel de carga del SAI y la fuente de alimentación 
++Name[pl]=Monitor UPS
++GenericName=UPS monitor
+ GenericName[es]=Monitor de SAI
++Comment=View UPS battery level and power source
++Comment[es]=Ver el nivel de carga del SAI y la fuente de alimentación 
++Comment[pl]=Podgląd poziomu baterii oraz źródła zasilania
+ Exec=ups-monitor
+ Icon=ups-monitor.png
+ Terminal=false
+ Type=Application
+-Categories=X-Red-Hat-Base;Application;System;
++Categories=System;Monitor;
++# vi: set encoding=utf-8 termencoding=iso-8859-2:
