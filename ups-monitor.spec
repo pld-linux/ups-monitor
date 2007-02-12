@@ -1,5 +1,5 @@
 Summary:	A graphical UPS monitor for the GNOME desktop
-Summary(pl.UTF-8):   Graficzny monitor UPS-a dla środowiska GNOME
+Summary(pl.UTF-8):	Graficzny monitor UPS-a dla środowiska GNOME
 Name:		ups-monitor
 Version:	0.6
 Release:	0.1
